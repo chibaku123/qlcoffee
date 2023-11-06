@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
+    <TabPane fx:id="tabpaneuser" prefHeight="646.0" prefWidth="919.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab fx:id="tabuser1" text="USER">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="588.0" prefWidth="892.0">
+                                 <children>
+                                    <TableView fx:id="tbview" onMouseClicked="#clickshow" prefHeight="278.0" prefWidth="919.0">
+                                      <columns>
+                                          <TableColumn prefWidth="56.79998701810837" text=" Ma NV" />
+                                          <TableColumn prefWidth="64.800048828125" text="Ma LLV" />
+                                          <TableColumn prefWidth="86.39999389648438" text="Ten NV" />
+                                          <TableColumn prefWidth="62.40000915527344" text="User" />
+                                          <TableColumn prefWidth="64.79998779296875" text="Pass" />
+                                          <TableColumn prefWidth="58.4000244140625" text="Ma CV" />
+                                          <TableColumn prefWidth="60.79998779296875" text="Gioi Tinh" />
+                                          <TableColumn prefWidth="84.0" text="Ngay Sinh" />
+                                          <TableColumn prefWidth="83.20001220703125" text="Dia Chi" />
+                                          <TableColumn prefWidth="87.20001220703125" text="SDT" />
+                                          <TableColumn prefWidth="85.60003662109375" text="Email" />
+                                        <TableColumn prefWidth="70.39990234375" text="Ma CN" />
+                                          <TableColumn prefWidth="61.5999755859375" text="SLDH" />
+                                      </columns>
+                                    </TableView>
+                                    <TextField fx:id="MNV" layoutX="99.0" layoutY="311.0" />
+                                    <TextField fx:id="TNV" layoutX="98.0" layoutY="355.0" />
+                                    <TextField fx:id="USER" layoutX="98.0" layoutY="395.0" />
+                                    <TextField fx:id="PASS" layoutX="99.0" layoutY="438.0" />
+                                    <TextField fx:id="MCV" layoutX="379.0" layoutY="297.0" />
+                                    <TextField fx:id="GT" layoutX="379.0" layoutY="337.0" />
+                                    <TextField fx:id="DC" layoutX="375.0" layoutY="382.0" />
+                                    <TextField fx:id="MCN" layoutX="379.0" layoutY="425.0" />
+                                    <Label layoutX="27.0" layoutY="302.0" text="Ma NV" />
+                                    <Label layoutX="20.0" layoutY="341.0" text="Ten NV" />
+                                    <Label layoutX="29.0" layoutY="377.0" text="User" />
+                                    <Label layoutX="32.0" layoutY="420.0" text="Pass" />
+                                    <Label layoutX="287.0" layoutY="293.0" text="Ma Chuc Vu" />
+                                    <Label layoutX="287.0" layoutY="331.0" text="Gioi Tinh" />
+                                    <Label layoutX="284.0" layoutY="368.0" text="Dia Chi" />
+                                    <Label layoutX="281.0" layoutY="420.0" text="Ma Chi Nhanh" />
+                                    <Label layoutX="35.0" layoutY="468.0" text="SDT" />
+                                    <TextField fx:id="SDT" layoutX="98.0" layoutY="480.0" />
+                                    <TextField fx:id="SDH" layoutX="375.0" layoutY="468.0" />
+                                    <Label layoutX="284.0" layoutY="459.0" text="So Don Hang" />
+                                    <Button fx:id="btnthem" layoutX="588.0" layoutY="310.0" mnemonicParsing="false" text="Them" />
+                                    <Button fx:id="btnsua" layoutX="587.0" layoutY="386.0" mnemonicParsing="false" text="Sua" />
+                                    <Button fx:id="btnxoa" layoutX="586.0" layoutY="466.0" mnemonicParsing="false" text="Xoa" />
+                                    <TextField fx:id="MLLV" layoutX="94.0" layoutY="524.0" />
+                                    <TextField fx:id="NS" layoutX="375.0" layoutY="506.0" />
+                                    <TextField fx:id="EMAIL" layoutX="371.0" layoutY="550.0" />
+                                    <Label layoutX="28.0" layoutY="515.0" text="Ma LLV" />
+                                    <Label layoutX="286.0" layoutY="506.0" text="Ngay Sinh" />
+                                    <Label layoutX="288.0" layoutY="540.0" text="Email" />
+                                    <Button fx:id="logout" layoutX="585.0" layoutY="524.0" mnemonicParsing="false" text="Logout" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab text="PRODUCT">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+                   <TabPane fx:id="tabpaneuser" prefHeight="646.0" prefWidth="919.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab fx:id="tabuser1" text="USER">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="588.0" prefWidth="892.0">
+                                 <children>
+                                    <TableView fx:id="tbview" onMouseClicked="#clickshow" prefHeight="278.0" prefWidth="919.0">
+                                      <columns>
+                                          <TableColumn prefWidth="56.79998701810837" text=" Ma NV" />
+                                          <TableColumn prefWidth="64.800048828125" text="Ma LLV" />
+                                          <TableColumn prefWidth="86.39999389648438" text="Ten NV" />
+                                          <TableColumn prefWidth="62.40000915527344" text="User" />
+                                          <TableColumn prefWidth="64.79998779296875" text="Pass" />
+                                          <TableColumn prefWidth="58.4000244140625" text="Ma CV" />
+                                          <TableColumn prefWidth="60.79998779296875" text="Gioi Tinh" />
+                                          <TableColumn prefWidth="84.0" text="Ngay Sinh" />
+                                          <TableColumn prefWidth="83.20001220703125" text="Dia Chi" />
+                                          <TableColumn prefWidth="87.20001220703125" text="SDT" />
+                                          <TableColumn prefWidth="85.60003662109375" text="Email" />
+                                        <TableColumn prefWidth="70.39990234375" text="Ma CN" />
+                                          <TableColumn prefWidth="61.5999755859375" text="SLDH" />
+                                      </columns>
+                                    </TableView>
+                                    <TextField fx:id="MNV" layoutX="99.0" layoutY="311.0" />
+                                    <TextField fx:id="TNV" layoutX="98.0" layoutY="355.0" />
+                                    <TextField fx:id="USER" layoutX="98.0" layoutY="395.0" />
+                                    <TextField fx:id="PASS" layoutX="99.0" layoutY="438.0" />
+                                    <TextField fx:id="GT" layoutX="379.0" layoutY="337.0" />
+                                    <TextField fx:id="DC" layoutX="375.0" layoutY="382.0" />
+                                    <Label layoutX="27.0" layoutY="302.0" text="Ma NV" />
+                                    <Label layoutX="20.0" layoutY="341.0" text="Ten NV" />
+                                    <Label layoutX="29.0" layoutY="377.0" text="User" />
+                                    <Label layoutX="32.0" layoutY="420.0" text="Pass" />
+                                    <Label layoutX="287.0" layoutY="293.0" text="Ma Chuc Vu" />
+                                    <Label layoutX="287.0" layoutY="331.0" text="Gioi Tinh" />
+                                    <Label layoutX="284.0" layoutY="368.0" text="Dia Chi" />
+                                    <Label layoutX="281.0" layoutY="420.0" text="Ma Chi Nhanh" />
+                                    <Label layoutX="35.0" layoutY="468.0" text="SDT" />
+                                    <TextField fx:id="SDT" layoutX="98.0" layoutY="480.0" />
+                                    <TextField fx:id="SDH" layoutX="375.0" layoutY="468.0" />
+                                    <Label layoutX="284.0" layoutY="459.0" text="So Don Hang" />
+                                    <Button fx:id="btnthem" layoutX="588.0" layoutY="310.0" mnemonicParsing="false" text="Them" />
+                                    <Button fx:id="btnsua" layoutX="587.0" layoutY="386.0" mnemonicParsing="false" text="Sua" />
+                                    <Button fx:id="btnxoa" layoutX="586.0" layoutY="466.0" mnemonicParsing="false" text="Xoa" />
+                                    <TextField fx:id="NS" layoutX="375.0" layoutY="506.0" />
+                                    <TextField fx:id="EMAIL" layoutX="371.0" layoutY="550.0" />
+                                    <Label layoutX="28.0" layoutY="515.0" text="Ma LLV" />
+                                    <Label layoutX="286.0" layoutY="506.0" text="Ngay Sinh" />
+                                    <Label layoutX="288.0" layoutY="540.0" text="Email" />
+                                    <Button fx:id="logout" layoutX="585.0" layoutY="524.0" mnemonicParsing="false" text="Logout" />
+                        <ComboBox fx:id="CBMCV" layoutX="376.0" layoutY="289.0" prefWidth="150.0" promptText="Chon Chuc Vu" />
+                        <ComboBox fx:id="CBMCN" layoutX="380.0" layoutY="425.0" prefWidth="150.0" />
+                        <ComboBox fx:id="CBMLLV" layoutX="99.0" layoutY="527.0" prefWidth="150.0" promptText="Chon Lich Lam" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab text="PRODUCT">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </Tab>
+            <Tab text="Untitled Tab">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <DialogPane layoutX="150.0" layoutY="28.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="480.0">
+                            <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+                            </content>
+                            <expandableContent>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+                            </expandableContent>
+                        </DialogPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+                    </tabs>
+                  </TabPane>
+</AnchorPane>
